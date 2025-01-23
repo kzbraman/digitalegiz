@@ -188,7 +188,11 @@ public class OpenIdProvider {
         boolean administrator = adminGroup != null && userGroups.contains(adminGroup);
 
         if (!(administrator || allowGroup == null || userGroups.contains(allowGroup))) {
+<<<<<<< HEAD
             throw new GeneralSecurityException("Your OpenID Groups do not permit access to DigitalEgiz.");
+=======
+            throw new GeneralSecurityException("Your OpenID Groups do not permit access to digitalegiz.");
+>>>>>>> master
         }
 
         User user = loginService.login(

@@ -1,5 +1,9 @@
 /*
+<<<<<<< HEAD
  * Copyright 2015 - 2024 Anton Tananaev (anton@digitalegiz.org)
+=======
+ * Copyright 2015 - 2018 Anton Tananaev (anton@digitalegiz.org)
+>>>>>>> master
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,7 +19,14 @@
  */
 package org.digitalegiz.protocol;
 
+<<<<<<< HEAD
 import org.digitalegiz.BaseProtocol;
+=======
+import io.netty.handler.codec.string.StringDecoder;
+import io.netty.handler.codec.string.StringEncoder;
+import org.digitalegiz.BaseProtocol;
+import org.digitalegiz.CharacterDelimiterFrameDecoder;
+>>>>>>> master
 import org.digitalegiz.PipelineBuilder;
 import org.digitalegiz.TrackerServer;
 import org.digitalegiz.config.Config;

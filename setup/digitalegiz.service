@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [Unit]
 Description=digitalegiz
 After=network.target
@@ -14,3 +15,21 @@ RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
+=======
+[Unit]
+Description=digitalegiz
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/digitalegiz
+ExecStart=/opt/digitalegiz/jre/bin/java -jar tracker-server.jar conf/digitalegiz.xml
+SyslogIdentifier=digitalegiz
+SuccessExitStatus=143
+WatchdogSec=600
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+>>>>>>> master

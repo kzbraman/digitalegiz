@@ -67,8 +67,13 @@ public class OverrideFilter implements Filter {
                     throw new RuntimeException(e);
                 }
 
+<<<<<<< HEAD
                 String title = server.getString("title", "DigitalEgiz");
                 String description = server.getString("description", "DigitalEgiz GPS Tracking System");
+=======
+                String title = server.getString("title", "digitalegiz");
+                String description = server.getString("description", "digitalegiz GPS Tracking System");
+>>>>>>> master
                 String colorPrimary = server.getString("colorPrimary", "#1a237e");
 
                 String alteredContent = new String(wrappedResponse.getCapture(), StandardCharsets.UTF_8)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * Copyright 2024 - 2025 Anton Tananaev (anton@digitalegiz.org)
  *
@@ -13,6 +14,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+=======
+>>>>>>> master
 package org.digitalegiz.config;
 
 import java.util.HashMap;

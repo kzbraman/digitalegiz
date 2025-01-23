@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Contributing to DigitalEgiz
 
 Please make sure you read this guide before commenting on any issue or creating a new issue or pull request.
@@ -45,3 +46,52 @@ Provide as much details as possible, including use case for your feature and any
 If you want to contribute some code to DigitalEgiz, it is recommended to discuss your solution with maintainers before starting any work.
 
 Any code that you want to contribute must be of high quality and follow existing code patterns and styles.
+=======
+# Contributing to digitalegiz
+
+Please make sure you read this guide before commenting on any issue or creating a new issue or pull request.
+
+Before asking anything, please search for an answer in:
+
+- [digitalegiz documentation](https://www.digitalegiz.org/documentation/)
+- [digitalegiz forums](https://www.digitalegiz.org/forums/)
+- Relevant repositories (see below)
+- [Google Search](https://www.google.com/)
+
+GitHub issues should be used ONLY for feature requests, code discussions and bug reports. For general discussions please use [digitalegiz forums](https://www.digitalegiz.org/forums/).
+
+There are multiple digitalegiz projects. If you create a new issue you MUST do it in the relevant repository:
+
+- [digitalegiz Server](https://github.com/tananaev/digitalegiz/issues)
+- [digitalegiz Web Interface](https://github.com/tananaev/digitalegiz-web/issues)
+- [digitalegiz Client for Android](https://github.com/tananaev/digitalegiz-client-android/issues)
+- [digitalegiz Client for iOS](https://github.com/tananaev/digitalegiz-client-ios/issues)
+- [digitalegiz Manager for Android](https://github.com/tananaev/digitalegiz-manager-android/issues)
+- [digitalegiz Manager for iOS](https://github.com/tananaev/digitalegiz-manager-ios/issues)
+
+If you are not sure where your issue belongs to, please use digitalegiz Server main repository.
+
+If you want to discuss something that applies to both Android and iOS apps, please use Android repository.
+
+## Bug Reports
+
+Before creating a bug report make sure that you have tested latest official release with default configuration.
+
+Only create a bug report issue if you are confident that there is a problem in digitalegiz software.
+
+Provide as much details as possible, including log fragments, operating system and hardware information.
+
+## Feature Requests
+
+Before creating a feature request make sure that the feature or modification that you are requesting is not yet implemented.
+
+Search repository to ensure that there is no existing issues for your request. If there is, add a new comment on that issue.
+
+Provide as much details as possible, including use case for your feature and any benefits that you can think of.
+
+## Pull Requests
+
+If you want to contribute some code to digitalegiz, it is recommended to discuss your solution with maintainers before starting any work.
+
+Any code that you want to contribute must be of high quality and follow existing code patterns and styles.
+>>>>>>> master

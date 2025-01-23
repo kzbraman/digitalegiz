@@ -434,7 +434,11 @@ public final class Keys {
             List.of(KeyType.CONFIG));
 
     /**
+<<<<<<< HEAD
      * Path to the database driver JAR file. DigitalEgiz includes drivers for MySQL, PostgreSQL and H2 databases. If you use
+=======
+     * Path to the database driver JAR file. digitalegiz includes drivers for MySQL, PostgreSQL and H2 databases. If you use
+>>>>>>> master
      * one of those, you don't need to specify this parameter.
      */
     public static final ConfigKey<String> DATABASE_DRIVER_FILE = new StringConfigKey(
@@ -449,7 +453,11 @@ public final class Keys {
             List.of(KeyType.CONFIG));
 
     /**
+<<<<<<< HEAD
      * Database connection URL. By default DigitalEgiz uses H2 database.
+=======
+     * Database connection URL. By default digitalegiz uses H2 database.
+>>>>>>> master
      */
     public static final ConfigKey<String> DATABASE_URL = new StringConfigKey(
             "database.url",
@@ -638,7 +646,11 @@ public final class Keys {
             List.of(KeyType.CONFIG));
 
     /**
+<<<<<<< HEAD
      * Force OpenID Connect authentication. When enabled, the DigitalEgiz login page will be skipped
+=======
+     * Force OpenID Connect authentication. When enabled, the digitalegiz login page will be skipped
+>>>>>>> master
      * and users are redirected to the OpenID Connect provider.
      */
     public static final ConfigKey<Boolean> OPENID_FORCE = new BooleanConfigKey(
@@ -709,7 +721,11 @@ public final class Keys {
 
     /**
      * OpenID Connect group to restrict access to.
+<<<<<<< HEAD
      * If this is not provided, all OpenID users will have access to DigitalEgiz.
+=======
+     * If this is not provided, all OpenID users will have access to digitalegiz.
+>>>>>>> master
      * This option will only work if your OpenID provider supports the groups scope.
      */
     public static final ConfigKey<String> OPENID_ALLOW_GROUP = new StringConfigKey(
@@ -760,7 +776,11 @@ public final class Keys {
             List.of(KeyType.CONFIG));
 
     /**
+<<<<<<< HEAD
      * Web interface TCP port number. By default, DigitalEgiz uses port 8082. To avoid specifying port in the browser you
+=======
+     * Web interface TCP port number. By default, digitalegiz uses port 8082. To avoid specifying port in the browser you
+>>>>>>> master
      * can set it to 80 (default HTTP port).
      */
     public static final ConfigKey<Integer> WEB_PORT = new IntegerConfigKey(
@@ -1193,9 +1213,15 @@ public final class Keys {
             15 * 60 * 1000L);
 
     /**
+<<<<<<< HEAD
      * DigitalEgiz notification API key.
      */
     public static final ConfigKey<String> NOTIFICATOR_TRACCAR_KEY = new StringConfigKey(
+=======
+     * digitalegiz notification API key.
+     */
+    public static final ConfigKey<String> NOTIFICATOR_digitalegiz_KEY = new StringConfigKey(
+>>>>>>> master
             "notificator.digitalegiz.key",
             List.of(KeyType.CONFIG));
 
@@ -1501,7 +1527,11 @@ public final class Keys {
             List.of(KeyType.CONFIG));
 
     /**
+<<<<<<< HEAD
      * List of protocols to enable. If not specified, DigitalEgiz enabled all protocols that have port numbers listed.
+=======
+     * List of protocols to enable. If not specified, digitalegiz enabled all protocols that have port numbers listed.
+>>>>>>> master
      * The value is a comma-separated list of protocol names.
      * Example value: teltonika,osmand
      */
@@ -1676,7 +1706,11 @@ public final class Keys {
 
     /**
      * Optional parameter to specify minimum distance for new reverse geocoding request. If distance is less than
+<<<<<<< HEAD
      * specified value (in meters), then DigitalEgiz will reuse last known address.
+=======
+     * specified value (in meters), then digitalegiz will reuse last known address.
+>>>>>>> master
      */
     public static final ConfigKey<Integer> GEOCODER_REUSE_DISTANCE = new IntegerConfigKey(
             "geocoder.reuseDistance",
@@ -1692,7 +1726,11 @@ public final class Keys {
 
     /**
      * Boolean flag to enable LBS location resolution. Some devices send cell towers information and WiFi point when GPS
+<<<<<<< HEAD
      * location is not available. DigitalEgiz can determine coordinates based on that information using third party
+=======
+     * location is not available. digitalegiz can determine coordinates based on that information using third party
+>>>>>>> master
      * services. Default value is false.
      */
     public static final ConfigKey<Boolean> GEOLOCATION_ENABLE = new BooleanConfigKey(
@@ -1827,7 +1865,11 @@ public final class Keys {
             List.of(KeyType.CONFIG));
 
     /**
+<<<<<<< HEAD
      * If this parameter is set, DigitalEgiz will monitor drops in the number of stored messages. If it drops more than
+=======
+     * If this parameter is set, digitalegiz will monitor drops in the number of stored messages. If it drops more than
+>>>>>>> master
      * the threshold, it will mark service as failing for systemd. Threshold is a value from 0.0 to 1.0. For example,
      * value 0.7 means that the number of messages in the last period is only 70% of what it was in the previous.
      */
@@ -1852,7 +1894,11 @@ public final class Keys {
 
     /**
      * Public URL for the web app. Used for notification, report link and OpenID Connect.
+<<<<<<< HEAD
      * If not provided, DigitalEgiz will attempt to get a URL from the server IP address, but it might be a local address.
+=======
+     * If not provided, digitalegiz will attempt to get a URL from the server IP address, but it might be a local address.
+>>>>>>> master
      */
     public static final ConfigKey<String> WEB_URL = new StringConfigKey(
             "web.url",

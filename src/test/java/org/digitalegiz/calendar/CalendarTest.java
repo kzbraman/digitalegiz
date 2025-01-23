@@ -59,7 +59,11 @@ public class CalendarTest {
     public void testCalendarOverlap() throws IOException, ParserException, ParseException {
         String calendarString = "BEGIN:VCALENDAR\n" +
                 "VERSION:2.0\n" +
+<<<<<<< HEAD
                 "PRODID:-//DigitalEgiz//NONSGML DigitalEgiz//EN\n" +
+=======
+                "PRODID:-//digitalegiz//NONSGML digitalegiz//EN\n" +
+>>>>>>> master
                 "BEGIN:VEVENT\n" +
                 "UID:00000000-0000-0000-0000-000000000000\n" +
                 "DTSTART;TZID=America/Los_Angeles:20240420T060000\n" +

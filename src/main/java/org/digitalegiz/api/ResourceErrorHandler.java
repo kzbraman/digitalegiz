@@ -14,6 +14,11 @@
  * limitations under the License.
  */
 package org.digitalegiz.api;
+<<<<<<< HEAD
+=======
+
+import org.digitalegiz.helper.Log;
+>>>>>>> master
 
 import jakarta.ws.rs.WebApplicationException;
 import jakarta.ws.rs.core.Response;

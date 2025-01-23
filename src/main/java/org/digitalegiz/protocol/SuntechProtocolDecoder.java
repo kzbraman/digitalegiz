@@ -21,7 +21,10 @@ import io.netty.buffer.Unpooled;
 import io.netty.channel.Channel;
 import org.digitalegiz.BaseProtocolDecoder;
 import org.digitalegiz.config.Keys;
+<<<<<<< HEAD
 import org.digitalegiz.helper.BcdUtil;
+=======
+>>>>>>> master
 import org.digitalegiz.helper.BufferUtil;
 import org.digitalegiz.helper.model.AttributeUtil;
 import org.digitalegiz.session.DeviceSession;

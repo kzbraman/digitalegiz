@@ -1,5 +1,9 @@
 /*
+<<<<<<< HEAD
  * Copyright 2016 - 2024 Anton Tananaev (anton@digitalegiz.org)
+=======
+ * Copyright 2016 - 2022 Anton Tananaev (anton@digitalegiz.org)
+>>>>>>> master
  * Copyright 2016 - 2018 Andrey Kunitsyn (andrey@digitalegiz.org)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");

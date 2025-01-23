@@ -1,5 +1,9 @@
 /*
+<<<<<<< HEAD
  * Copyright 2022 - 2024 Anton Tananaev (anton@digitalegiz.org)
+=======
+ * Copyright 2022 Anton Tananaev (anton@digitalegiz.org)
+>>>>>>> master
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,7 +24,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerRecord;
+<<<<<<< HEAD
 import org.apache.kafka.common.serialization.StringSerializer;
+=======
+>>>>>>> master
 import org.digitalegiz.config.Config;
 import org.digitalegiz.config.Keys;
 

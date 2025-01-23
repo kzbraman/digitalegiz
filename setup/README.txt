@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 DigitalEgiz is a free and open source GPS tracking system.
+=======
+digitalegiz is a free and open source GPS tracking system.
+>>>>>>> master
 
 Installation instructions are available on the official website:
 

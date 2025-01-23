@@ -19,6 +19,10 @@ package org.digitalegiz.api;
 import com.google.inject.Provider;
 import org.digitalegiz.api.security.PermissionsService;
 import org.digitalegiz.database.StatisticsManager;
+<<<<<<< HEAD
+=======
+import org.digitalegiz.helper.Log;
+>>>>>>> master
 import org.digitalegiz.helper.SessionHelper;
 import org.digitalegiz.model.Device;
 import org.digitalegiz.storage.Storage;

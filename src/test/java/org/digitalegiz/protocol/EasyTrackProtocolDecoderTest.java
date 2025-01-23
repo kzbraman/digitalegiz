@@ -2,7 +2,10 @@ package org.digitalegiz.protocol;
 
 import org.junit.jupiter.api.Test;
 import org.digitalegiz.ProtocolTest;
+<<<<<<< HEAD
 import org.digitalegiz.model.Position;
+=======
+>>>>>>> master
 
 public class EasyTrackProtocolDecoderTest extends ProtocolTest {
 

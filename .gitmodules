@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 [submodule "digitalegiz-web"]
 	path = digitalegiz-web
 	url = ../digitalegiz-web.git
 	branch = master
 	ignore = all
+=======
+[submodule "digitalegiz-web"]
+	path = digitalegiz-web
+	url = ../digitalegiz-web.git
+	branch = master
+	ignore = all
+>>>>>>> master
