@@ -6,7 +6,7 @@ DigitalEgiz is an open source GPS tracking system. This repository contains Java
 
 Other parts of DigitalEgiz solution include:
 
-- [DigitalEgiz web app](https://github.com/digitalegiz/digitalegiz-web)
+- [DigitalEgiz web app](https://github.com/digitalegiz/digitalegiz-web)](https://github.com/TimurIshmurzinDS/digitalegiz-web.git)
 - [DigitalEgiz Manager Android app](https://github.com/digitalegiz/digitalegiz-manager-android)
 - [DigitalEgiz Manager iOS app](https://github.com/digitalegiz/digitalegiz-manager-ios)
 
